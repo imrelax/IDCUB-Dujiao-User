@@ -1,0 +1,295 @@
+{
+  "_comment": "网站全局配置文件 - 所有配置项均可在此文件中修改",
+
+  "productBadges": {
+    "_comment": "商品标签配置 - 用于在商品卡片和详情页显示特殊标签（如热销、推荐等）",
+    "items": [
+      {
+        "key": "hot",
+        "label": {
+          "zh-CN": "热销",
+          "zh-TW": "熱銷",
+          "en-US": "Hot"
+        },
+        "gradient": "linear-gradient(135deg, #ff4d4f, #d9363e)",
+        "weight": 100,
+        "productIds": [3889],
+        "_comment": "热销标签 - 权重最高，显示红色渐变"
+      },
+      {
+        "key": "recommend",
+        "label": {
+          "zh-CN": "推荐",
+          "zh-TW": "推薦",
+          "en-US": "Recommended"
+        },
+        "gradient": "linear-gradient(135deg, #4096ff, #1677ff)",
+        "weight": 90,
+        "productIds": [9064, 9059],
+        "_comment": "推荐标签 - 蓝色渐变"
+      },
+      {
+        "key": "bestseller",
+        "label": {
+          "zh-CN": "爆款",
+          "zh-TW": "爆款",
+          "en-US": "Best Seller"
+        },
+        "gradient": "linear-gradient(135deg, #ff9c6e, #fa541c)",
+        "weight": 95,
+        "productIds": [8473],
+        "_comment": "爆款标签 - 橙色渐变"
+      },
+      {
+        "key": "new",
+        "label": {
+          "zh-CN": "新品",
+          "zh-TW": "新品",
+          "en-US": "New"
+        },
+        "gradient": "linear-gradient(135deg, #73d13d, #389e0d)",
+        "weight": 95,
+        "productIds": [],
+        "_comment": "新品标签 - 绿色渐变"
+      },
+      {
+        "key": "sale",
+        "label": {
+          "zh-CN": "特价",
+          "zh-TW": "特價",
+          "en-US": "Sale"
+        },
+        "gradient": "linear-gradient(135deg, #ffd666, #faad14)",
+        "weight": 95,
+        "productIds": [],
+        "_comment": "特价标签 - 金色渐变"
+      },
+      {
+        "key": "fastShip",
+        "label": {
+          "zh-CN": "秒发",
+          "zh-TW": "秒發",
+          "en-US": "Fast Ship"
+        },
+        "gradient": "linear-gradient(135deg, #b37feb, #722ed1)",
+        "weight": 95,
+        "productIds": [],
+        "_comment": "秒发标签 - 紫色渐变"
+      },
+      {
+        "key": "stable",
+        "label": {
+          "zh-CN": "稳定",
+          "zh-TW": "穩定",
+          "en-US": "Stable"
+        },
+        "gradient": "linear-gradient(135deg, #5cdbd3, #13c2c2)",
+        "weight": 95,
+        "productIds": [],
+        "_comment": "稳定标签 - 青色渐变"
+      },
+      {
+        "key": "premium",
+        "label": {
+          "zh-CN": "优选",
+          "zh-TW": "優選",
+          "en-US": "Premium"
+        },
+        "gradient": "linear-gradient(135deg, #ff85c0, #eb2f96)",
+        "weight": 95,
+        "productIds": [],
+        "_comment": "优选标签 - 粉色渐变"
+      }
+    ]
+  },
+
+  "marketingTitles": {
+    "_comment": "营销标题配置 - 通过 productIds 指定商品显示对应的营销效果（标题+渐变色）",
+    "items": [
+      {
+        "id": 1,
+        "label": {
+          "zh-CN": "特价促销",
+          "zh-TW": "特價促銷",
+          "en-US": "Special Sale"
+        },
+        "gradient": "linear-gradient(135deg, #ff4d4f, #d9363e)",
+        "productIds": []
+      },
+      {
+        "id": 2,
+        "label": {
+          "zh-CN": "优惠抢购",
+          "zh-TW": "優惠搶購",
+          "en-US": "Flash Deal"
+        },
+        "gradient": "linear-gradient(135deg, #ff9c6e, #fa541c)",
+        "productIds": []
+      },
+      {
+        "id": 3,
+        "label": {
+          "zh-CN": "活动专享",
+          "zh-TW": "活動專享",
+          "en-US": "Event Exclusive"
+        },
+        "gradient": "linear-gradient(135deg, #4096ff, #1677ff)",
+        "productIds": []
+      },
+      {
+        "id": 4,
+        "label": {
+          "zh-CN": "惊喜特价",
+          "zh-TW": "驚喜特價",
+          "en-US": "Surprise Price"
+        },
+        "gradient": "linear-gradient(135deg, #b37feb, #722ed1)",
+        "productIds": []
+      },
+      {
+        "id": 5,
+        "label": {
+          "zh-CN": "超值优惠",
+          "zh-TW": "超值優惠",
+          "en-US": "Great Value"
+        },
+        "gradient": "linear-gradient(135deg, #73d13d, #389e0d)",
+        "productIds": [3889]
+      },
+      {
+        "id": 6,
+        "label": {
+          "zh-CN": "爆款特惠",
+          "zh-TW": "爆款特惠",
+          "en-US": "Hot Deal"
+        },
+        "gradient": "linear-gradient(135deg, #ffd666, #faad14)",
+        "productIds": []
+      },
+      {
+        "id": 7,
+        "label": {
+          "zh-CN": "直降优惠",
+          "zh-TW": "直降優惠",
+          "en-US": "Price Drop"
+        },
+        "gradient": "linear-gradient(135deg, #5cdbd3, #13c2c2)",
+        "productIds": []
+      },
+      {
+        "id": 8,
+        "label": {
+          "zh-CN": "折后低价",
+          "zh-TW": "折後低價",
+          "en-US": "Discounted Price"
+        },
+        "gradient": "linear-gradient(135deg, #ff85c0, #eb2f96)",
+        "productIds": []
+      },
+      {
+        "id": 9,
+        "label": {
+          "zh-CN": "限时底价",
+          "zh-TW": "限時底價",
+          "en-US": "Limited Time Offer"
+        },
+        "gradient": "linear-gradient(135deg, #ff4d4f, #fa541c)",
+        "productIds": [8473]
+      }
+    ]
+  },
+
+  "friendLinks": {
+    "_comment": "友情链接配置 - 显示在网站底部和关于页面",
+    "items": [
+      { "name": "Twitter", "url": "https://twitter.com", "logo": "/uploads/category/2026/04/7f06a124-068d-4036-912b-452fdf334fc9.png" },
+      { "name": "Facebook", "url": "https://facebook.com", "logo": "/uploads/category/2026/04/4f622025-c8fb-43ef-9522-83ade0b684ec.png" },
+      { "name": "Instagram", "url": "https://instagram.com", "logo": "/uploads/category/2026/04/17f0f925-c3e4-4bf8-92c2-3d9a0db89cae.png" },
+      { "name": "TikTok", "url": "https://tiktok.com", "logo": "/uploads/category/2026/04/22798c09-8219-4751-b2e8-fabe6325e91b.png" },
+      { "name": "Telegram", "url": "https://telegram.org", "logo": "/uploads/product/2026/04/4dc5fc6e-57d9-4545-813b-fb5a4809aa0a.png" },
+      { "name": "Gmail", "url": "https://gmail.com", "logo": "/uploads/category/2026/04/244d306e-0b84-4c5a-b32e-6aed6235d5eb.png" },
+      { "name": "LinkedIn", "url": "https://linkedin.com", "logo": "/uploads/category/2026/04/5027bfed-dc01-4cd3-b090-203ac0dd8c49.png" },
+      { "name": "Discord", "url": "https://discord.com", "logo": "/uploads/category/2026/04/ff001cfb-5a46-4b5d-97cd-02d88da88886.png" },
+      { "name": "Apple", "url": "https://www.apple.com", "logo": "/uploads/category/2026/04/32fd0747-a845-42ab-99fe-fcf9da339d32.png" },
+      { "name": "OpenAI", "url": "https://openai.com", "logo": "/uploads/category/2026/04/de31e1aa-bcf7-4e72-a380-1544e0348731.png" }
+    ]
+  },
+
+  "slides": {
+    "_comment": "首页轮播图配置 - 支持多张轮播，每张包含标题、描述、按钮和链接",
+    "items": [
+      {
+        "id": 1,
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 20.94c1.5 0 2.75 1.06 4 1.06 3 0 6-8 6-12.22A4.91 4.91 0 0 0 17 5c-2.22 0-4 1.44-5 2-1-.56-2.78-2-5-2a4.9 4.9 0 0 0-5 4.78C2 14 5 22 8 22c1.25 0 2.5-1.06 4-1.06Z\"></path><path d=\"M10 2c1 .5 2 2 2 5h-2c0-3-1-4-2-5Z\"></path></svg>",
+        "subtitle": "官方正规渠道 · 稳定防封",
+        "title": "美区账号租用更划算",
+        "description": "如果你只是想在美区账号上使用，租用更划算。\n我们提供稳定、安全的独享/共享美区 Apple ID，支持随时下载各类外区应用。\n无需复杂的注册流程，即买即用。",
+        "buttonText": "立即查看商品",
+        "link": "/products/apple-usa-30-days-v5",
+        "bgColor": "from-blue-600 via-blue-500 to-indigo-600"
+      },
+      {
+        "id": 2,
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z\"></path><path d=\"M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z\"></path></svg>",
+        "subtitle": "教程中心 · 新手必看 · 常见问题",
+        "title": "不会操作？这里有完整教程",
+        "description": "我们整理了完整的使用教程。\n如果您不会购买、不会使用、不会提取，请先查看教程内容。\n跟着步骤操作，更快上手使用。",
+        "buttonText": "了解详情",
+        "link": "/tutorials",
+        "bgColor": "from-indigo-600 via-purple-500 to-fuchsia-600"
+      },
+      {
+        "id": 3,
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M21 10V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z\"></path><polyline points=\"3.27 6.96 12 12.01 20.73 6.96\"></polyline><line x1=\"12\" y1=\"22.08\" x2=\"12\" y2=\"12\"></line><circle cx=\"17\" cy=\"17\" r=\"3\"></circle><path d=\"m21 21-1.5-1.5\"></path></svg>",
+        "subtitle": "重要提醒 · 订单查询 · 售后说明",
+        "title": "购买后没收到？请先查看购买记录",
+        "description": "如果您下单后没有收到商品，请不要着急。\n请先进入购买记录页面，查询对应订单的状态、发货信息和提取内容。\n若购买记录中仍无法解决，再联系客服处理。",
+        "buttonText": "查看记录",
+        "link": "/guest/orders",
+        "bgColor": "from-teal-600 via-emerald-500 to-teal-700"
+      }
+    ]
+  },
+
+  "noticeSettings": {
+    "_comment": "公告设置配置 - 控制首页公告栏和入站弹窗显示",
+    "enabled": true,
+    "enabled_comment": "是否启用公告功能",
+    "noticeIds": [1],
+    "noticeIds_comment": "指定显示的公告ID列表，为空则显示所有公告，多条时自动滚动",
+    "popupEnabled": true,
+    "popupEnabled_comment": "是否启用入站弹窗",
+    "popupNoticeId": 2,
+    "popupNoticeId_comment": "入站弹窗显示的公告ID，为null则不显示弹窗"
+  },
+
+  "hideOutOfStock": {
+    "_comment": "库存隐藏设置 - 控制是否隐藏库存为0的商品",
+    "enabled": true,
+    "enabled_comment": "true: 隐藏库存为0的商品; false: 显示所有商品"
+  },
+
+  "tutorialEnabled": {
+    "_comment": "教程功能开关 - 控制是否显示教程入口",
+    "enabled": true
+  },
+
+  "wordpress": {
+    "_comment": "WordPress教程集成配置 - 用于从WordPress获取教程文章",
+    "apiBase": "https://www.wpdaxue.com",
+    "apiBase_comment": "WordPress API地址",
+    "tutorialParentCategoryId": 6,
+    "tutorialParentCategoryId_comment": "教程父分类ID",
+    "categorySettings": {
+      "_comment": "教程页面文案配置",
+      "defaultTitle": "教程中心",
+      "defaultDescription": "出海教程与技术指南",
+      "allCategoriesText": "全部教程",
+      "badgeText": "教程",
+      "readMoreText": "阅读详情",
+      "emptyText": "暂无教程文章",
+      "notFoundText": "未找到该教程",
+      "backToListText": "返回教程列表"
+    }
+  }
+}
