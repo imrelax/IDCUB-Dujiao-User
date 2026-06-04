@@ -315,6 +315,12 @@ Nuxt 4 路由设计严格保持与原版一致的 URL 结构（如 `/products/xx
 
 ---
 
+## 说明
+
+本项目所有代码均由 AI 编写，基于 **DeepSeek V4 Pro** 模型生成。由于对代码整体缺乏足够的理解与把控，因此选择闭源，但欢迎通过 Issue 交流讨论。
+
+---
+
 ## 许可证
 
 本项目前端核心架构基于 [dujiao-next](https://github.com/dujiao-next) 官方版本进行二次重构与开发。
